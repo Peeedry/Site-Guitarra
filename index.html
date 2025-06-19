@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de Guitarra</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <img width="50" height="50" src="https://img.icons8.com/ios/50/guitar.png" alt="logo guitarra" class="logo" />
+        <nav id="main-nav">
+            <ul class="pag">
+                <li><a href="#">Início</a></li>
+                <li><a href="#beneficios">Benefícios</a></li>
+                <li><a href="#sobre">Sobre o Curso</a></li>
+                <li><a href="#testimonial active">Depoimentos</a></li>
+                <li><a href="#cadastre-se">Cadastre-se</a></li>
+            </ul>
+        </nav>
+        <button class="menu-toggle" aria-label="Abrir menu">
+            <i class="fa fa-bars"></i>
+        </button>
+    </header>
+
+    <!-- Hero Chamada principal -->
+    <section id="hero">
+        <h1>Curso de Guitarra</h1>
+        <p>Aprenda a tocar guitarra do zero ao avançado com aulas práticas e teóricas!</p>
+        <a href="#cadastre-se" class="button">Saiba mais</a>
+    </section>
+
+    <!-- Benefícios -->
+    <section id="beneficios">
+        <h2>Benefícios de Aprender Guitarra</h2>
+        <div class="beneficios">
+            <div class="beneficios-item">
+                <i class="fa-solid fa-music"></i>
+                <p>Desenvolva sua criatividade musical.</p>
+            </div>
+            <div class="beneficios-item">
+                <i class="fa-solid fa-users"></i>
+                <p>Faça parte de bandas e conheça novas pessoas.</p>
+            </div>
+            <div class="beneficios-item">
+                <i class="fa-solid fa-brain"></i>
+                <p>Melhore sua concentração e memória.</p>
+            </div>
+            <div class="beneficios-item">
+                <i class="fa-solid fa-guitar"></i>
+                <p>Aprenda com repertório variado e técnicas modernas.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre o Curso -->
+    <section id="sobre">
+        <h2>Sobre o Curso</h2>
+        <p>Nosso curso de guitarra oferece aulas para todos os níveis, com professores experientes, material exclusivo e
+            suporte individualizado. Aprenda teoria, prática, improvisação, gravação, leitura de cifras e tablaturas,
+            além de dicas para tocar suas músicas favoritas!</p>
+        <ul>
+            <li>Aulas em vídeo e material PDF</li>
+            <li>Grupo exclusivo para alunos</li>
+            <li>Suporte via WhatsApp</li>
+            <li>Certificado ao final do curso</li>
+        </ul>
+    </section>
+
+    <!-- Depoimentos -->
+    <div class="testimonial active">
+        <div class="testimonial-content">
+            <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Maria Souza" class="avatar">
+            <div>
+                <p>"Esse curso foi um divisor de águas na minha carreira!"</p>
+                <h4>Maria Souza</h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="testimonial">
+        <div class="testimonial-content">
+            <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="João Lima" class="avatar">
+            <div>
+                <p>"Aprendi mais aqui em 3 meses do que em anos tentando sozinho."</p>
+                <h4>João Lima</h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="testimonial">
+        <div class="testimonial-content">
+            <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Ana Costa" class="avatar">
+            <div>
+                <p>"As aulas práticas e o suporte me deram segurança para começar a trabalhar."</p>
+                <h4>Ana Costa</h4>
+            </div>
+        </div>
+    </div>
+    <div class="testimonial-controls">
+        <button id="prev">&#10094;</button>
+        <button id="next">&#10095;</button>
+    </div>
+    </section>
+
+    <!-- Cadastre-se -->
+    <section id="cadastre-se">
+        <h2>Baixe nosso e-book gratuito!</h2>
+        <p>Receba dicas exclusivas para evoluir na guitarra e fique por dentro das novidades do curso.</p>
+        <div id="form-lead">
+            <form action="" id="form-cadastro">
+                <input type="text" id="nome" name="nome" placeholder="Nome completo" required>
+                <input type="email" id="email" name="email" required placeholder="Insira seu email">
+                <input type="tel" id="whatsapp" name="whatsapp" required placeholder="Número de telefone">
+                <button type="submit" id="botao">Baixar e-book</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Perguntas Frequentes -->
+    <section id="faq">
+        <h2>Perguntas Frequentes</h2>
+        <div class="faq-item">
+            <h3>Preciso ter guitarra para começar?</h3>
+            <p>Não! Você pode começar aprendendo teoria e técnicas básicas. Recomendamos adquirir uma guitarra para
+                praticar, mas não é obrigatório no início.</p>
+        </div>
+        <div class="faq-item">
+            <h3>O curso tem garantia?</h3>
+            <p>Sim! Você tem 7 dias para testar o curso. Se não gostar, devolvemos seu dinheiro.</p>
+        </div>
+        <div class="faq-item">
+            <h3>Como recebo o certificado?</h3>
+            <p>Após concluir todas as aulas e atividades, você pode solicitar seu certificado digital sem custo
+                adicional.</p>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Curso de Guitarra. Todos os direitos reservados.</p>
+            <div class="social-icons">
+                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+                <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
